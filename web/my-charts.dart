@@ -10,11 +10,10 @@ void main(List<String> args) {
   dartStatus.text = 'Dart is running!';
 
   var myData = JsObject.jsify([
-    {'year': '2001', 'population': 2},
-    {'year': '2002', 'population': 4},
-    {'year': '2003', 'population': 6},
-    {'year': '2004', 'population': 8},
-    {'year': '2005', 'population': 10},
+    {'item': '事例一','count': 40,'percent': 0.4},
+    {'item': '事例二','count': 30,'percent': 0.3},
+    {'item': '事例三','count': 15,'percent': 0.15},
+    {'item': '事例四','count': 15,'percent': 0.15},
   ]);
 
   var chart = context['chart'];
